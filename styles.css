@@ -1,0 +1,354 @@
+.mlogo {
+    position: absolute;
+    left: 5.33%;
+    right: 84%;
+    top: 3.49%;
+    bottom: 92.14%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 96px 20px;
+    gap: 40px;
+    position: absolute;
+    width: 375px;
+    height: 824px;
+    left: calc(50% - 375px/2);
+    top: calc(50% - 824px/2 - 10px);    
+}
+.register-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 335px;
+    height: 80px;
+}
+.register {
+    width: 235px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+.register-text .text {
+    width: 309px;
+    height: 42px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 335px;
+    height: 512px;
+}
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 335px;
+    height: 296px;
+}
+#fname {
+    box-sizing: border-box;
+    width: 335px;
+    height: 56px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;   
+}
+#lname {
+    box-sizing: border-box;
+    width: 335px;
+    height: 56px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+     
+}
+#e-mail {
+    box-sizing: border-box;
+    width: 335px;
+    height: 56px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+}
+#passwrd {
+    box-sizing: border-box;
+    width: 335px;
+    height: 56px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+}
+button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    width: 335px;
+    height: 48px;
+    background-color: #3258FB;
+    border-radius: 8px;
+    color: white;
+    border-color: #3258FB;
+}
+button:hover {
+    box-shadow: 0px 8px 16px rgba(50, 88, 251, 0.24);
+    transition: 0.2s;
+    transform: scale(1.03);
+}
+.TOS {
+    width: 335px;
+    height: 66px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #919EAB;    
+}
+.TOS a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.have-account {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 8px 0px 0px;
+    width: 171px;
+    height: 30px;
+}
+
+.mlogo1 {
+    position: absolute;
+    left: 3.89%;
+    right: 94.03%;
+    top: 5.47%;
+    bottom: 91.6%;
+}
+.full-stats {
+    position: absolute;
+    left: 6.53%;
+    right: 85%;
+    top: 5.37%;
+    bottom: 91.5%;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 30px;
+}
+.art-board {
+    position: absolute;
+    left: 1.11%;
+    right: 73.61%;
+    top: 36.67%;
+    bottom: 36.67%;
+}
+.side-board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: absolute;
+    left: 1.11%;
+    right: 73.61%;
+    top: 1.56%;
+    bottom: 1.56%;
+    box-shadow: 0px 16px 32px -4px rgba(145, 158, 171, 0.12);
+    border-radius: 16px;
+}
+.account1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: absolute;
+    width: 166px;
+    height: 22px;
+    right: 40px;
+    top: 40px;
+    ;
+}
+.account1 .have-account {
+    width: 122px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: right;
+    padding: 0%;
+}
+.log-in {
+    width: 44px;
+    height: 22px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+}
+.hide-sm form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    position: absolute;
+    width: 480px;
+    height: 461px;
+    left: calc(50% - 480px/2 + 230px);
+    top: calc(50% - 461px/2);
+}
+.register-text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    width: 480px;
+    height: 65px;
+}
+.register1 {
+    width: 235px;
+    height: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;   
+}
+.text1 {
+    width: 403px;
+    height: 21px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    
+}
+.main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    width: 480px;
+    height: 356px;
+}
+.data1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    ga: 24px;
+    width: 480px;
+    height: 216px;
+}
+.name-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 480px;
+    height: 56px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+#fname1 {
+    box-sizing: border-box;
+    width: 232px;
+    height: 53.2px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+}
+#lname1 {
+    box-sizing: border-box;
+    width: 232px;
+    height: 53.2px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+}
+#e-mail1 {
+    width: 480px;
+    height: 56px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+#passwrd1 {
+    box-sizing: border-box;
+    width: 480px;
+    height: 56px;
+    border: 1px solid rgba(145, 158, 171, 0.3);
+    border-radius: 8px;
+}
+.main1 button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 22px;
+    width: 480px;
+    height: 48px;
+    background: #3258FB;
+    box-shadow: 0px 8px 16px rgba(50, 88, 251, 0.24);
+    border-radius: 8px;
+    margin-top: 5%;
+}
+.TOS1 {
+    width: 393px;
+    height: 44px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+}
+.TOS1 a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.hide-lm {
+    display: block;
+}
+.hide-sm {
+    display: none;
+}
+
+
+@media (min-width: 500px) {
+    .hide-lm {
+        display: none;
+    }
+    .hide-sm {
+        display: block;
+    }
+}
